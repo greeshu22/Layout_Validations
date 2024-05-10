@@ -1,0 +1,68 @@
+<mvc:View
+    controllerName="com.anjali.layout.controller.View2"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core = "sap.ui.core"
+>
+
+    <Page
+        id="page"
+        title="Simpleform" showNavButton="true" navButtonPress="onBack"
+    >
+        <content>
+
+<f:SimpleForm  title="Employee details" editable="true" layout="ResponsiveGridLayout" labelSpanL="3" labelSpanM="3" emptySpanL="0" emptySpanM="0" >
+<f:content >  
+    <core:Title text="Basic details" ></core:Title>
+        <Label text="Employee Name"></Label>
+            <Input ></Input>
+
+             <Label text="Employee id"></Label>
+            <Input ></Input>
+
+             <Label text="Employee desig"></Label>
+            <Input ></Input>
+
+             <Label text="Employee Skill"></Label>
+            <Input ></Input>
+<core:Title text="Contact info"></core:Title>
+                 <Label text="Employee EMail"></Label>
+            <Input ></Input>
+
+                 <Label text="Employee Phone No"></Label>
+            <Input ></Input>
+</f:content>
+</f:SimpleForm>
+
+
+
+<f:SimpleForm  title="Employee details" editable="true" layout="ResponsiveGridLayout" labelSpanL="2" labelSpanM="2" emptySpanL="4" emptySpanM="4" >
+<f:content >  
+
+             <Label text="Employee Name"></Label>
+            <Input ></Input>
+
+             <Label text="Employee id"></Label>
+            <Input ></Input>
+
+             <Label text="Employee desig"></Label>
+            <Input ></Input>
+
+             <Label text="Employee Skill"></Label>
+            <Input ></Input>
+
+                 <Label text="Employee EMail"></Label>
+            <Input ></Input>
+
+                 <Label text="Employee Phone No"></Label>
+            <Input ></Input>
+</f:content>
+</f:SimpleForm>
+
+
+           </content>
+        
+    </Page>
+</mvc:View>

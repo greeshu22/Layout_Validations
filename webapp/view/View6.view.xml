@@ -1,0 +1,51 @@
+<mvc:View
+    controllerName="com.anjali.layout.controller.View6"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:ux="sap.uxap"
+>
+    <Page
+        id="page"
+        title="Object Page layout"
+        showNavButton="true"
+        navButtonPress="onBack"
+    >
+        <content>
+        <f:SimpleForm  title="Employee details form" editable="true" layout="ResponsiveGridLayout" labelSpanL="2" emptySpanL="4">
+         
+        <f:content>
+        <Label text="Employee ID" required="true"></Label>
+        <Input id="idEmpid"></Input>
+
+              <Label text="Employee Name" required="true"></Label>
+        <Input id="idName"></Input>
+
+              <Label text="Employee Designation" required="true"></Label>
+        <Input id="idDesig"></Input>
+
+              <Label text="Employee Skill" ></Label>
+        <Input id="idSkill"></Input>
+
+              <Label text="Employee Phone No" required="true"></Label>
+        <Input id="idPhone"></Input>
+              <Label text="Employee Email" required="true"></Label>
+        <Input id="idEmail"></Input>
+
+        <Label text="Date of Joining(Doj)" required="true"></Label>
+        <DatePicker id="idDoj"></DatePicker>
+        </f:content>
+        </f:SimpleForm>
+        </content>
+        <footer>
+        <Bar >
+        
+        <contentRight>
+        <Button text="Submit" type="Emphasized" press="onPressSubmit"></Button>
+        </contentRight>
+        </Bar>
+        </footer>
+    </Page>
+</mvc:View>
